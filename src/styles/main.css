@@ -1,0 +1,45 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-do-ceu-nocturno-estrelado_1048-16885.jpg);
+    background-size: cover;
+}
+h1{
+    color: #ff0000;
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 3px solid rgba(255, 215, 0, 0.6);
+}
+.painel{
+    margin-top: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgba(255, 0, 0, 0.6);
+    background-color: transparent;
+}
+.enemy{
+    background-image: url(https://www.imagenspng.com.br/wp-content/uploads/2020/10/among-us-red-png-01.png);
+    background-size: cover;
+}
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
